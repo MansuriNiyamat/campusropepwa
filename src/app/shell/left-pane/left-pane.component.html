@@ -1,1 +1,4 @@
-<p>left-pane works!</p>
+<app-state-selection-pane
+[states]="states" [selectedState]="selectedState"
+(onStateChange)="onStateChange($event)">
+</app-state-selection-pane>
